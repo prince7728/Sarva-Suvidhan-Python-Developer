@@ -34,8 +34,8 @@ pip install -r requirements.txt
   CREATE DATABASE kpa_forms;
   ```
 - The default credentials in `api.py` are:
-  - user: `root`
-  - password: `root7728`
+  - user: `Enter your user`
+  - password: `Enter your Password`
   - host: `localhost`
   - port: `3306`
   - database: `kpa_forms`
