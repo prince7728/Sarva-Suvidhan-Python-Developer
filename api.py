@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker, Session
 import json
 
 # MySQL connection
-DATABASE_URL = "mysql+pymysql://root:root7728@localhost:3306/kpa_forms"
+DATABASE_URL = "add you Mysql Database url"
 
 engine = create_engine(DATABASE_URL, echo=True, future=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
